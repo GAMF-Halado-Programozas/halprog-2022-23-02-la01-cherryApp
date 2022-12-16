@@ -5,4 +5,6 @@ def print_first_chars():
     (Minden karakter új sorban legyen.)
     '''
     message = 'Hello, this is a test message.'
-    pass
+    parts = message.split(' ')
+    for word in parts:
+        print(word[0:1])
